@@ -12,5 +12,6 @@ class EmailParser
   end
 
   def parse
+    self.split(/[,\s]+/)
   end
 end
